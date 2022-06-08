@@ -1,12 +1,25 @@
 <template>
   <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
-    <router-view/>
+    <NavBar></NavBar>
+    <router-view></router-view>
   </div>
 </template>
+
+<script>
+  import '@popperjs/core';
+  import 'bootstrap/dist/css/bootstrap.css';
+  import 'bootstrap-vue/dist/bootstrap-vue.css';
+  import 'bootstrap-vue/dist/bootstrap-vue-icons';
+  import '@/assets/css/animations.css';
+  import '@/assets/css/tag-style.css';
+  import NavBar from '@/components/navigation/NavBar';
+
+  export default {
+    components: {
+      NavBar
+    }
+  }
+</script>
 
 <style>
 #app {
