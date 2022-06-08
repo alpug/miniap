@@ -1,0 +1,10 @@
+
+/* Style for certain tags globally (across all pages and components) */
+
+  hr {
+    animation: right_to_left 2s ease;
+    -webkit-animation: right_to_left 2s ease;
+    -moz-animation: right_to_left 2s ease;
+    -o-animation: right_to_left 2s ease;
+    -ms-animation: right_to_left 2s ease;
+  }

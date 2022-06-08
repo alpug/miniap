@@ -1,0 +1,147 @@
+  /* Right to left animation (clean) */
+
+  @keyframes right_to_left {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+  }
+
+  @-moz-keyframes right_to_left {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+  }
+
+  @-webkit-keyframes right_to_left {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+  }
+
+  @-o-keyframes right_to_left {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+  }
+
+  @-ms-keyframes right_to_left {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+  }
+
+  /* Left to right animation (clean) */
+
+  @keyframes left_to_right {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  @-moz-keyframes left_to_right {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  @-webkit-keyframes left_to_right {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  @-o-keyframes left_to_right {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  @-ms-keyframes left_to_right {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  /* Left to right with content opacity progressing from 0 to 1 animation (looks great) */
+
+  @keyframes left_to_right_fade_in {
+    0% {opacity:0;transform: translateX(-20%);}
+    100% {opacity:1;transform: translateX(0%);}
+  }
+
+  @-moz-keyframes left_to_right_fade_in {
+    0% {opacity:0;transform: translateX(-20%);}
+    100% {opacity:1;transform: translateX(0%);}
+  }
+
+  @-webkit-keyframes left_to_right_fade_in {
+    0% {opacity:0;transform: translateX(-20%);}
+    100% {opacity:1;transform: translateX(0%);}
+  }
+
+  @-o-keyframes left_to_right_fade_in {
+    0% {opacity:0;transform: translateX(-20%);}
+    100% {opacity:1;transform: translateX(0%);}
+  }
+
+  @-ms-keyframes left_to_right_fade_in {
+    0% {opacity:0;transform: translateX(-20%);}
+    100% {opacity:1;transform: translateX(0%);}
+  }
+
+  /* Fade in animation (test) */
+
+  @keyframes fade_in {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+  @-moz-keyframes fade_in {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+  @-webkit-keyframes fade_in {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+  @-o-keyframes fade_in {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+  @-ms-keyframes fade_in {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
