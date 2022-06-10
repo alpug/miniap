@@ -1,29 +1,16 @@
 <template>
-    <nav color="red" class="navbar navbar-expand-lg navbar-light bg-light">
+    <b-navbar toggleable="lg" class="navbar navbar-expand-lg navbar-light bg-light">
         <router-link to="/"><img class="navbar-logo" alt="MiniAP Logo" src="@/assets/images/logo-transparent.png"></router-link>
-        <button class="navbar-toggler" type="button" bs-data-toggle="collapse" bs-data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <router-link @click="document.body.style.backgroundColor = 'green'" class="navbar-item nav-link" id="home" to="/" exact>Home</router-link>
-                </li>
-                <li class="nav-item">
-                    <router-link class="navbar-item nav-link" id="about" to="/about" exact>About me</router-link>
-                </li>
-                <li class="nav-item">
-                    <router-link class="navbar-item nav-link" id="interests" to="/interests" exact>My Interests</router-link>
-                </li>
-                <li class="nav-item">
-                    <router-link class="navbar-item nav-link disabled" to="#" exact>(My Hero) Academia</router-link>
-                </li>
-                <li class="nav-item">
-                    <router-link class="navbar-item nav-link" id="contact" to="/contact" exact>Contact Us</router-link>
-                </li>
-            </ul>
-        </div>
-    </nav>
+        <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+        <b-collapse id="nav-collapse" is-nav>
+                <b-navbar-nav>
+                    <b-nav-item href="#"><router-link to="/" exact>Home</router-link></b-nav-item>
+                    <b-nav-item href="#"><router-link to="/about" exact>About me</router-link></b-nav-item>
+                    <b-nav-item disabled href="#"><router-link to="#" exact>Academia</router-link></b-nav-item>
+                    <b-nav-item href="#"><router-link to="/contact" exact>Contact Us</router-link></b-nav-item>
+                </b-navbar-nav>
+        </b-collapse>
+    </b-navbar>
 </template>
 
 <script>
