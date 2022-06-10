@@ -4,7 +4,7 @@
     <br/>
     <p id="blurb">
       I am a 22 year old self-taught Software Engineer whose passion is to learn about and experience the world of technology. My favourite area to explore is Software Development, having over 2 years of working experience in this area.<br/>
-      I spent time working in <a @click="showConstruction">construction</a> and <a @click="showRetail">retail</a>.
+      I spent time working in construction and retail.
     </p>
     <hr/>
     <h6 class="my-3">
@@ -58,9 +58,7 @@ export default {
       showingPython: false,
       showingHTML: false,
       showingCSS: false,
-      showingJavaScript: false,
-      showingConstruction: false,
-      showingRetail: false
+      showingJavaScript: false
     }
   },
   components: {
